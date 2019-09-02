@@ -6,17 +6,22 @@ let item: String = "string \(str)"; //string interpolation
 
 
 if(2 > 1 || 3 < 4){
-    print("this is true");
+    print("this is true")
 }
 
-var list = ["apples", "bananas", "grapes"];
+var list = ["apples", "bananas", "grapes"]
 
-let groceries = ["apples", "bananas", "grapes"];
+let groceries = ["apples", "bananas", "grapes"]
 
 if(list == groceries){
-    print("These lists are the same"); //can compare lists
+    print("These lists are the same") //can compare lists
 }
 
-list.reverse(); //mutates arr
+list.reverse() //mutates arr
 
 print(list)
+
+let strNo = "215"
+let myInt1: Optional<Int> = Int(strNo) // "!" at the end unwraps optional
+
+print(myInt1!)
